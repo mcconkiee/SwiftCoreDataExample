@@ -22,8 +22,8 @@ extension Count{
     }
     
     class func fetchall()-> [AnyObject]?{
-        let appd = UIApplication.sharedApplication().delegate as AppDelegate
-        let ctx = appd.managedObjectContext!
+
+        let ctx = CoreDataUtility.sharedInstance.managedObjectContext!
         let fReq = NSFetchRequest(entityName: "Count")
 
         var anError: NSError?
@@ -38,8 +38,9 @@ extension Count{
     
     class func destroy(obj:NSManagedObject){
         let appd = UIApplication.sharedApplication().delegate as AppDelegate
-        let ctx = appd.managedObjectContext!
+        let ctx = CoreDataUtility.sharedInstance.managedObjectContext!
         ctx.deleteObject(obj)
+        CoreDataUtility.sharedInstance.saveContext()
     }
     
     func prettydate()->String{

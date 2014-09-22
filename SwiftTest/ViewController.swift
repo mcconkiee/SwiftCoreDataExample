@@ -54,8 +54,8 @@ class ViewController: UIViewController,UIAlertViewDelegate,UITableViewDelegate,U
     }
     
     func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
-        let appdelegate = UIApplication.sharedApplication().delegate as AppDelegate
-        let context = appdelegate.managedObjectContext!
+
+        let context = CoreDataUtility.sharedInstance.managedObjectContext!
         var errror:NSError?
         counter += 1
         let ctt = Count.createWithCount(counter, context: context) as Count

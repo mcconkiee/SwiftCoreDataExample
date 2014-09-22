@@ -17,6 +17,7 @@
 		5D6B68DE19CEF7A90046AA65 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D6B68DD19CEF7A90046AA65 /* test.png */; };
 		5D6B68E819CF01FE0046AA65 /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B68E719CF01FE0046AA65 /* Count.swift */; };
 		5D6B68EC19CF3B390046AA65 /* Count_EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B68EB19CF3B390046AA65 /* Count_EX.swift */; };
+		5D6B68F019D04F550046AA65 /* CoreDataUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B68EF19D04F550046AA65 /* CoreDataUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5D6B68DD19CEF7A90046AA65 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		5D6B68E719CF01FE0046AA65 /* Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Count.swift; sourceTree = "<group>"; };
 		5D6B68EB19CF3B390046AA65 /* Count_EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Count_EX.swift; sourceTree = "<group>"; };
+		5D6B68EF19D04F550046AA65 /* CoreDataUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				5D6B68BA19CEF6180046AA65 /* AppDelegate.swift */,
+				5D6B68EF19D04F550046AA65 /* CoreDataUtility.swift */,
 				5D6B68BF19CEF6180046AA65 /* ViewController.swift */,
 				5D6B68C119CEF6180046AA65 /* Main.storyboard */,
 				5D6B68C419CEF6180046AA65 /* Images.xcassets */,
@@ -230,6 +233,7 @@
 				5D6B68BB19CEF6180046AA65 /* AppDelegate.swift in Sources */,
 				5D6B68BE19CEF6180046AA65 /* SwiftTest.xcdatamodeld in Sources */,
 				5D6B68E819CF01FE0046AA65 /* Count.swift in Sources */,
+				5D6B68F019D04F550046AA65 /* CoreDataUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
