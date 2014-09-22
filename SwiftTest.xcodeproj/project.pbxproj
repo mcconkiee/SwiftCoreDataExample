@@ -14,6 +14,9 @@
 		5D6B68C519CEF6180046AA65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6B68C419CEF6180046AA65 /* Images.xcassets */; };
 		5D6B68C819CEF6180046AA65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D6B68C619CEF6180046AA65 /* LaunchScreen.xib */; };
 		5D6B68D419CEF6180046AA65 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B68D319CEF6180046AA65 /* SwiftTestTests.swift */; };
+		5D6B68DE19CEF7A90046AA65 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D6B68DD19CEF7A90046AA65 /* test.png */; };
+		5D6B68E819CF01FE0046AA65 /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B68E719CF01FE0046AA65 /* Count.swift */; };
+		5D6B68EC19CF3B390046AA65 /* Count_EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B68EB19CF3B390046AA65 /* Count_EX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		5D6B68CD19CEF6180046AA65 /* SwiftTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6B68D219CEF6180046AA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D6B68D319CEF6180046AA65 /* SwiftTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestTests.swift; sourceTree = "<group>"; };
+		5D6B68DD19CEF7A90046AA65 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		5D6B68E719CF01FE0046AA65 /* Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Count.swift; sourceTree = "<group>"; };
+		5D6B68EB19CF3B390046AA65 /* Count_EX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Count_EX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 				5D6B68C419CEF6180046AA65 /* Images.xcassets */,
 				5D6B68C619CEF6180046AA65 /* LaunchScreen.xib */,
 				5D6B68BC19CEF6180046AA65 /* SwiftTest.xcdatamodeld */,
+				5D6B68E719CF01FE0046AA65 /* Count.swift */,
+				5D6B68EB19CF3B390046AA65 /* Count_EX.swift */,
 				5D6B68B819CEF6180046AA65 /* Supporting Files */,
 			);
 			path = SwiftTest;
@@ -93,6 +101,7 @@
 		5D6B68B819CEF6180046AA65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D6B68DD19CEF7A90046AA65 /* test.png */,
 				5D6B68B919CEF6180046AA65 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D6B68C319CEF6180046AA65 /* Main.storyboard in Resources */,
+				5D6B68DE19CEF7A90046AA65 /* test.png in Resources */,
 				5D6B68C819CEF6180046AA65 /* LaunchScreen.xib in Resources */,
 				5D6B68C519CEF6180046AA65 /* Images.xcassets in Resources */,
 			);
@@ -215,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6B68EC19CF3B390046AA65 /* Count_EX.swift in Sources */,
 				5D6B68C019CEF6180046AA65 /* ViewController.swift in Sources */,
 				5D6B68BB19CEF6180046AA65 /* AppDelegate.swift in Sources */,
 				5D6B68BE19CEF6180046AA65 /* SwiftTest.xcdatamodeld in Sources */,
+				5D6B68E819CF01FE0046AA65 /* Count.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
