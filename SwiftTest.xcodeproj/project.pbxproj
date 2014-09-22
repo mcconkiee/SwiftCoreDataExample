@@ -88,14 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				5D6B68BA19CEF6180046AA65 /* AppDelegate.swift */,
-				5D6B68EF19D04F550046AA65 /* CoreDataUtility.swift */,
-				5D6B68BF19CEF6180046AA65 /* ViewController.swift */,
-				5D6B68C119CEF6180046AA65 /* Main.storyboard */,
+				5D6B68F419D051910046AA65 /* xib */,
+				5D6B68F319D0517B0046AA65 /* utilities */,
+				5D6B68F219D051760046AA65 /* controllers */,
+				5D6B68F119D051720046AA65 /* models */,
 				5D6B68C419CEF6180046AA65 /* Images.xcassets */,
-				5D6B68C619CEF6180046AA65 /* LaunchScreen.xib */,
 				5D6B68BC19CEF6180046AA65 /* SwiftTest.xcdatamodeld */,
-				5D6B68E719CF01FE0046AA65 /* Count.swift */,
-				5D6B68EB19CF3B390046AA65 /* Count_EX.swift */,
 				5D6B68B819CEF6180046AA65 /* Supporting Files */,
 			);
 			path = SwiftTest;
@@ -125,6 +123,40 @@
 				5D6B68D219CEF6180046AA65 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D6B68F119D051720046AA65 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5D6B68E719CF01FE0046AA65 /* Count.swift */,
+				5D6B68EB19CF3B390046AA65 /* Count_EX.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		5D6B68F219D051760046AA65 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D6B68BF19CEF6180046AA65 /* ViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		5D6B68F319D0517B0046AA65 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5D6B68EF19D04F550046AA65 /* CoreDataUtility.swift */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		5D6B68F419D051910046AA65 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				5D6B68C119CEF6180046AA65 /* Main.storyboard */,
+				5D6B68C619CEF6180046AA65 /* LaunchScreen.xib */,
+			);
+			name = xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
